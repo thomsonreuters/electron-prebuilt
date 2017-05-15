@@ -1,6 +1,6 @@
 {
   "name": "electron",
-  "version": "1.6.4",
+  "version": "1.7.0",
   "description": "Install prebuilt electron binaries for the command-line using npm",
   "repository": "https://github.com/electron-userland/electron-prebuilt",
   "scripts": {
@@ -13,9 +13,11 @@
     "electron": "cli.js"
   },
   "main": "index.js",
+  "types": "electron.d.ts",
   "dependencies": {
-    "extract-zip": "^1.0.3",
-    "electron-download": "^3.0.1"
+    "@types/node": "^7.0.18",
+    "electron-download": "^3.0.1",
+    "extract-zip": "^1.0.3"
   },
   "devDependencies": {
     "home-path": "^0.1.1",
